@@ -1,0 +1,31 @@
+/* background color on main page -- body */
+/* Capture all items with top level class */
+/* center on page --- dashboard */
+/* padding + margins */
+/* create 2 rows + 4 columns */
+
+/* capture monster and align to left, top + create margins */
+/* capture welcome and align to right, top + create margins */
+
+/* capture Parents and align to left 1 */
+/* capture Customize and align to left 2 */
+/* capture Level Up and align to left 3 */
+/* capture Play and align to left 4 */
+
+html {
+  background-color: #8ed6d7;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-rows: 2;
+  grid-template-columns: 4;
+}
+
+.title {
+}
+
+.monster {
+  /* padding: 20px; */
+  background-color: white;
+}
